@@ -1,4 +1,6 @@
-<p>babble bee</p>
+<?php
+
+echo "<p>babble bee</p>";
 
 <p>do you like big monsters?</p>
 
