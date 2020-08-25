@@ -1,6 +1,6 @@
 <?php
 
-$names = [Pippy, Peter, Mark, Mary];
+$names = ["Pippy", "Peter", "Mark", "Mary"];
 
 echo "<p>babble bee</p>
 
