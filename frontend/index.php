@@ -11,3 +11,7 @@ echo "<p>babble bee</p>
 <p>maybe</p>
 
 <h2>bibble bye</h2>";
+
+foreach ($names as $thisname) {
+    echo "Hello $thisname";
+}
