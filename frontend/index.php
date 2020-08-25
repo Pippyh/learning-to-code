@@ -1,5 +1,7 @@
 <?php
 
+$names = [Pippy, Peter, Mark, Mary];
+
 echo "<p>babble bee</p>
 
 <p>do you like big monsters?</p>
