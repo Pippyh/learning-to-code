@@ -13,4 +13,4 @@ foreach ($names as $thisname) {
     echo "<p>Hello $thisname</p>";
 }
 
-echo $mustache->render('index',[$data]);
+echo $mustache->render('index',$data);
