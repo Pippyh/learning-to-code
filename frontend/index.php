@@ -12,3 +12,4 @@ $data['sport'] = 'tennis';
 $data['names'] = $names;
 
 echo $mustache->render('index',$data);
+echo $mustache->render('head', []);
