@@ -7,9 +7,10 @@ $mustache = new Mustache_Engine(['loader' => $mloader]);
 
 
 $names = ["Pippy", "Peter", "Mark", "Mary"];
+$data = [];
 
 foreach ($names as $thisname) {
     echo "<p>Hello $thisname</p>";
 }
 
-echo $mustache->render('index',[]);
+echo $mustache->render('index',[$data]);
