@@ -11,8 +11,4 @@ $data = [];
 $data['sport'] = 'tennis';
 $data['names'] = $names;
 
-foreach ($names as $thisname) {
-    echo "<p>Hello $thisname</p>";
-}
-
 echo $mustache->render('index',$data);
