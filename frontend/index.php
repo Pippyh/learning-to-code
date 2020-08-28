@@ -2,6 +2,9 @@
 
 require_once '/var/www/vendor/autoload.php';
 
+use Mustache_Loader_FilesystemLoader;
+use Mustache_Engine;
+
 $names = ["Pippy", "Peter", "Mark", "Mary"];
 
 echo "<p>babble bee</p>
