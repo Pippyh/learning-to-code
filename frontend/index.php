@@ -20,4 +20,4 @@ foreach ($names as $thisname) {
     echo "<p>Hello $thisname</p>";
 }
 
-echo $mustache->render('index.mustache,[]');
+echo $mustache->render('index',[]);
