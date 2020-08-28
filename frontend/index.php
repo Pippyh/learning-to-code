@@ -13,5 +13,5 @@ echo "<p>babble bee</p>
 <h2>bibble bye</h2>";
 
 foreach ($names as $thisname) {
-    echo "Hello $thisname";
+    echo "<p>Hello $thisname</p>";
 }
