@@ -8,6 +8,7 @@ $mustache = new Mustache_Engine(['loader' => $mloader]);
 
 $names = ["Pippy", "Peter", "Mark", "Mary"];
 $data = [];
+$data = ['sport'] = 'tennis';
 
 foreach ($names as $thisname) {
     echo "<p>Hello $thisname</p>";
