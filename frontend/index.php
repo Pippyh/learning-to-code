@@ -2,8 +2,9 @@
 
 require_once '/var/www/vendor/autoload.php';
 
-use Mustache_Loader_FilesystemLoader;
-use Mustache_Engine;
+$mloader = new Mustache_Loader_FilesystemLoader($_SERVER['DOCUMENT_ROOT'].'/templates');
+$mustache = new Mustache_Engine(['loader' => $mloader]);
+
 
 $names = ["Pippy", "Peter", "Mark", "Mary"];
 
