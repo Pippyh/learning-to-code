@@ -1,5 +1,7 @@
 <?php
 
+require_once '/var/www/vendor/autoload.php';
+
 $names = ["Pippy", "Peter", "Mark", "Mary"];
 
 echo "<p>babble bee</p>
