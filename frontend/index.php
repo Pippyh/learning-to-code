@@ -19,3 +19,5 @@ echo "<p>do you like big monsters?</p>
 foreach ($names as $thisname) {
     echo "<p>Hello $thisname</p>";
 }
+
+echo $mustache->render('index.mustache,[]');
